@@ -1,0 +1,20 @@
+.sort {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  align-items: center;
+  background-color: antiquewhite;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 20px;
+}
+.sortform {
+  display: flex;
+  margin: 0px;
+  flex-direction: row;
+  margin-left: 30px;
+}
+.sortform > label {
+  text-align: center;
+  line-height: 30px;
+}

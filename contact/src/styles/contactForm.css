@@ -1,0 +1,43 @@
+.form {
+  width: fit-content;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 13px 100px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.39);
+  position: relative;
+}
+.closeButton {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background-color: black;
+  color: white;
+  padding: 6px;
+  border-radius: 50%;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+input {
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+input[type="file"] {
+  margin: 10px;
+}
+
+input[type="submit"] {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
